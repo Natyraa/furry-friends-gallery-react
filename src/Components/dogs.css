@@ -1,0 +1,32 @@
+.btn {
+  background-color: rgb(156, 16, 16);
+  color:  white;
+  padding: 10px 20px;
+ cursor: pointer;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.container {
+  border: 3px solid bisque;
+  padding: 10px;
+  margin: auto;
+  width: fit-content
+}
+.dog-information {
+  display: flex;
+ 
+}
+.dog-information p {
+  width: 500px;
+}
+
+.image-container img {
+  width: 200px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
